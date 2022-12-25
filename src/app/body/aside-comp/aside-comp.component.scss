@@ -1,0 +1,14 @@
+ul{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    padding: 10px;
+    li{
+        list-style-type: none;
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+}

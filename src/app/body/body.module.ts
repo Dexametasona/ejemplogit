@@ -12,6 +12,10 @@ import { AsideCompComponent } from './aside-comp/aside-comp.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    ContentCompComponent,
+    AsideCompComponent
   ]
 })
 export class BodyModule { }

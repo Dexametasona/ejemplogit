@@ -12,6 +12,10 @@ import { NavCompComponent } from './nav-comp/nav-comp.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    HeaderCompComponent,
+    NavCompComponent
   ]
 })
 export class HeaderModule { }
